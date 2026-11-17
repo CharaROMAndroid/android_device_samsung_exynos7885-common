@@ -256,8 +256,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.apk_verity.mode=0 \
     debug.sf.disable_backpressure=1 \
     persist.sys.sf.color_saturation=1.0 \
-    ro.incremental.enable=yes \
-    ro.surface_flinger.supports_background_blur=1
+    ro.incremental.enable=yes
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
